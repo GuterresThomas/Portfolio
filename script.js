@@ -3,6 +3,7 @@ const blog = document.getElementById('blog');
 const loginPage = document.getElementById('loginPage');
 const gitHub = document.getElementById('gitHub');
 const whatsBtn = document.getElementById('whatsBtn');
+const otica = document.getElementById('otica');
 
 pokeDex.addEventListener('click', function() {
     window.open('https://guterresthomas.github.io/PokeDex/', '_blank');
@@ -22,4 +23,8 @@ gitHub.addEventListener('click', function() {
 
 whatsBtn.addEventListener('click', function() {
     window.open('https://wa.me/5555997004539', '_blank');
+});
+
+otica.addEventListener('click', function() {
+    window.open('https://guterresthomas.github.io/otica/', '_blank');
 });
